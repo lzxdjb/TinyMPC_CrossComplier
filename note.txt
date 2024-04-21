@@ -1,0 +1,6 @@
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -DCMAKE_TOOLCHAIN_FILE=/scratch/lzx_research/TinyMPC/cmake/riscv.cmake ..
+make VERBOSE=1
